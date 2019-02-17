@@ -1,5 +1,5 @@
-$ (function() {
-    $("input: button").click(function() {
+$(function() {
+    $("input:button").click(function() {
         let hour = new Data().getHours();
         let greeting, color;
 
